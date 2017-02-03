@@ -1,0 +1,71 @@
+https://gitter.im/FreeCodeCamp/chinese
+
+https://www.freecodecamp.cn/challenges/say-hello-to-html-element
+
+
+层叠样式表 css
+
+元素选择器
+类选择器
+ID选择器
+
+color: 颜色
+font-size:字号
+font-family:字体
+
+字体自动降级
+img元素是自关闭元素，不需要结束标记
+input元素是自关闭元素
+
+border-color:green;
+border-width:10px;
+border-style:solider;
+border-radius: (边框半径)
+
+
+href="#"  指向本页面的一个假链接
+
+alt：当图片无法加载时显示的替代文本
+
+
+<ul> </ul> 无序列表
+<ol> </ol> 有序列表
+
+ id 属性总是具有更高的优先级
+
+浏览器读取 CSS 的顺序是从上到下，这意味着，在发生冲突时，浏览器会使用最后的 CSS 声明
+
+
+
+覆盖css的四种方式：
+优先级：body < 类选择器 < id选择器 < 行内样式(inline-style) < !important
+
+
+
+bootstraps:
+button: btn btn-block btn-primary btn-info btn-danger
+
+Font Awesome:
+<i class="fa fa-paper-plane fa-thumb-up fa-info-circle- fa-trash"></i>
+
+
+jQuery:
+
+$("button"),  $(".target"), $("#target")
+document ready function
+
+方法链
+
+.addClass("btn-primary");   // 添加css
+.removeClass("btn-default");// 移除css
+.css("color", "red");	    // 改变css
+.prop("disabled", true);    // 改变属性
+.remove();		    // 删除元素
+.appendTo("#right-well");   // 移动元素
+.clone();		    // 拷贝元素
+.parent();		    // 允许你访问指定元素的父元素。
+.children();
+
+
+
+
